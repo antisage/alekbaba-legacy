@@ -1,0 +1,27 @@
+body {
+    margin: 0;
+    background: black;
+    color: white;
+    font-family: roboto, arial, sans-serif;
+  }
+
+#names {
+  display: flex;
+  justify-content: center;
+}
+
+.name {
+  font-size: 4vw;
+  padding: 0vw 8vw; 
+}
+
+#score-container {
+  display: flex;
+  justify-content: center;
+}
+
+.score {
+  font-size: 40px;
+  font-size: 10vw;
+  padding: 0vw 9.5vw;
+}
