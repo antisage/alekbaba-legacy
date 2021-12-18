@@ -8,7 +8,7 @@ body {
 #title {
   display: flex;
   justify-content:center;
-  font-size: 2vw;
+  font-size: 3vw;
   padding: 2vw;
 }
 
@@ -18,8 +18,8 @@ body {
 }
 
 .name {
-  font-size: 4vw;
-  padding: 0vw 8vw; 
+  font-size: 5vw;
+  padding: 0vw 8.5vw; 
 }
 
 #score-container {
@@ -28,15 +28,15 @@ body {
 }
 
 .score {
-  font-size: 40px;
-  font-size: 10vw;
-  padding: 0vw 9.5vw;
+  /*font-size: 40px;*/
+  font-size: 16vw;
+  padding: 0vw 9.2vw;
 }
 
  /* Style the button that is used to open and close the collapsible content */
  .collapsible {
   background-color: rgb(0, 0, 0);
-  color: #444;
+  color: rgb(180, 180, 180);
   cursor: pointer;
   padding: 18px;
   width: 100%;
@@ -46,9 +46,21 @@ body {
   font-size: 15px;
 }
 
+.collapsible-2 {
+  background-color: rgb(0, 0, 0);
+  color: rgb(180, 180, 180);
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  /*border: none;*/
+  text-align: center;
+  outline: none;
+  font-size: 1.2vw;
+}
+
 /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
 .active, .collapsible:hover {
-  background-color: #ccc;
+  /*background-color: #ccc;*/
 }
 
 /* Style the collapsible content. Note: hidden by default */
@@ -57,3 +69,16 @@ body {
   display: none;
   overflow: hidden;
 } 
+
+.comp-row {
+  flex: 50%
+  padding: 3vw;
+}
+
+.comp-list {
+  /*display: flex;*/
+}
+
+.off-center {
+  text-align: center;
+}
