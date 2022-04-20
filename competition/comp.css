@@ -5,6 +5,25 @@ body {
     font-family: roboto, arial, sans-serif;
   }
 
+
+#s {
+  text-align: center; 
+  vertical-align: middle;
+  color: red;
+}
+
+#d {
+  text-align: center; 
+  vertical-align: middle;
+  color: green;
+}
+
+#i {
+  text-align: center; 
+  vertical-align: middle;
+  color: blue;
+}
+
 #title {
   display: flex;
   justify-content:center;
@@ -31,6 +50,12 @@ body {
   /*font-size: 40px;*/
   font-size: 16vw;
   padding: 0vw 9.2vw;
+}
+
+.score-2 {
+  /*font-size: 40px;*/
+  font-size: 1vw;
+  padding: 0vw 32.5vw;
 }
 
  /* Style the button that is used to open and close the collapsible content */
@@ -70,9 +95,15 @@ body {
   overflow: hidden;
 } 
 
-.comp-row {
+/* Style the collapsible content. Note: hidden by default */
+.content-2 {
+  display: none;
+} 
+
+.comp-row-g {
   flex: 50%
   padding: 3vw;
+  color: green;
 }
 
 .comp-list {
@@ -81,4 +112,15 @@ body {
 
 .off-center {
   text-align: center;
+}
+
+.comp-col {
+  float : left;
+  width: 50%
+  padding: 10px;
+}
+.comp-row {
+  text-align: center;
+  padding-top: .3vw;
+  padding-bottom: 1.1vw;
 }
