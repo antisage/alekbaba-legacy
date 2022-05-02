@@ -1,0 +1,121 @@
+body {
+    margin: 0;
+    background: black;
+    color: white;
+    font-family: roboto, arial, sans-serif;
+  }
+
+#Zach {
+    font-size: 8vw;
+    padding: 0vw 9.2vw;
+}
+
+.rotating {
+    animation: rotate 1s infinite;
+ }
+ 
+ @keyframes rotate {
+    from { transform: rotate(0deg); }
+    to { transform: rotate(360deg); }
+ }
+
+
+ body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    background-image: url("groge.png");
+    overflow: hidden;
+}
+#container{
+  position: absolute;
+  background-color: rgb(231,143,128);
+  width:310px;
+  height:42px;
+  margin-left:50px;
+z-index: 1;
+}
+@keyframes slide{
+  0% {
+  margin-left: 10px;
+  /*width: 300%; */
+}
+
+49.9% {
+      -moz-transform: scaleX(1);
+      -o-transform: scaleX(1);
+      -webkit-transform: scaleX(1);
+      transform: scaleX(1);
+      filter: FlipH;
+      -ms-filter: "FlipH";
+}
+50%{
+  margin-left: 350px;
+
+    -moz-transform: scaleX(-1);
+      -o-transform: scaleX(-1);
+      -webkit-transform: scaleX(-1);
+      transform: scaleX(-1);
+      filter: FlipH;
+      -ms-filter: "FlipH";
+}
+100%{
+    margin-left:10px;
+    -moz-transform: scaleX(-1);
+      -o-transform: scaleX(-1);
+      -webkit-transform: scaleX(-1);
+      transform: scaleX(-1);
+      filter: FlipH;
+      -ms-filter: "FlipH";
+}
+}
+
+h2 {
+  color: red;
+  text-align: center;
+  font-size: 11px;
+  font-family: cursive;
+  position: absolute;
+  top: 10%;
+  left: 10%;
+  transform: translate(-50%, -50%);
+  -webkit-animation-name: spin;
+  -webkit-animation-duration: 4000ms;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-timing-function: linear;
+  -moz-animation-name: spin;
+  -moz-animation-duration: 4000ms;
+  -moz-animation-iteration-count: infinite;
+  -moz-animation-timing-function: linear;
+  -ms-animation-name: spin;
+  -ms-animation-duration: 4000ms;
+  -ms-animation-iteration-count: infinite;
+  -ms-animation-timing-function: linear;
+  
+  animation-name: spin;
+  animation-duration: 1000ms;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+@-ms-keyframes spin {
+  from { -ms-transform: rotate(0deg); }
+  to { -ms-transform: rotate(360deg); }
+}
+@-moz-keyframes spin {
+  from { -moz-transform: rotate(0deg); }
+  to { -moz-transform: rotate(360deg); }
+}
+@-webkit-keyframes spin {
+  from { -webkit-transform: rotate(0deg); }
+  to { -webkit-transform: rotate(360deg); }
+}
+@keyframes spin {
+  from {
+      transform:rotate(0deg);
+  }
+  to {
+      transform:rotate(360deg);
+  }
+}
