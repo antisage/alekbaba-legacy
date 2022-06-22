@@ -12,6 +12,7 @@ function drawChart() {
 
   var options = {
     title: 'Tapestry',
+    legend: 'none'
   };
 
   var chart = new google.visualization.PieChart(document.getElementById('piechart1'));
@@ -26,7 +27,8 @@ function drawChart() {
   
     var options = {
       title: 'Through the Ages',
-      isStacked:'percent'
+      isStacked:'percent',
+      legend: 'none'
     };
   
     var chart = new google.visualization.BarChart(document.getElementById('piechart3'));
@@ -45,6 +47,7 @@ function drawChart() {
 
   options = {
     title: '7 Wonders: Duel',
+    legend: 'none'
   };
 
   chart = new google.visualization.ColumnChart(document.getElementById('barchart1'));
@@ -58,7 +61,8 @@ function drawChart() {
   ]);
 
   var options = {
-    title: 'Great Western Trail'
+    title: 'Great Western Trail',
+    legend:{textStyle:{fontSize:'20'}}
   };
 
   var chart = new google.visualization.PieChart(document.getElementById('piechart2'));
