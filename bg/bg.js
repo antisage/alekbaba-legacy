@@ -12,12 +12,26 @@ function drawChart() {
 
   var options = {
     title: 'Tapestry',
-    is3d: true
   };
 
   var chart = new google.visualization.PieChart(document.getElementById('piechart1'));
 
   chart.draw(data, options);
+
+    /*THROUGH THE AGES*/
+    var data = google.visualization.arrayToDataTable([
+      ['Year', 'Alek', 'Christina'],
+      ['',  17,      8]
+    ]);
+  
+    var options = {
+      title: 'Through the Ages',
+      isStacked:'percent'
+    };
+  
+    var chart = new google.visualization.BarChart(document.getElementById('piechart3'));
+  
+    chart.draw(data, options);
 
 
   /*7 WONDERS DUEL*/
