@@ -62,7 +62,6 @@ function drawChart() {
 
   var options = {
     title: 'Great Western Trail',
-    legend:{textStyle:{fontSize:'20'}}
   };
 
   var chart = new google.visualization.PieChart(document.getElementById('piechart2'));
