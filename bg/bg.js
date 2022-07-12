@@ -22,7 +22,7 @@ function drawChart() {
     /*THROUGH THE AGES*/
     var data = google.visualization.arrayToDataTable([
       ['Year', 'Alek', 'Christina'],
-      ['',  17,      8]
+      ['',  18,      8]
     ]);
   
     var options = {
@@ -57,7 +57,7 @@ function drawChart() {
   var data = google.visualization.arrayToDataTable([
     ['Task', 'Hours per Day'],
     ['Alek Wins', 10],
-    ['Christina Wins', 8]
+    ['Christina Wins', 9]
   ]);
 
   var options = {
