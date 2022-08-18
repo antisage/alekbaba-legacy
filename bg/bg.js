@@ -57,7 +57,7 @@ function drawChart() {
   var data = google.visualization.arrayToDataTable([
     ['Task', 'Hours per Day'],
     ['Alek Wins', 10],
-    ['Christina Wins', 9]
+    ['Christina Wins', 10]
   ]);
 
   var options = {
